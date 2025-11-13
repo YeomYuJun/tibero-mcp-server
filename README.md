@@ -2,6 +2,10 @@
 
 Tibero 데이터베이스와 AI 어플리케이션 간의 안전한 통신을 제공하는 Model Context Protocol(MCP) 서버입니다.
 
+<a href="https://glama.ai/mcp/servers/@YeomYuJun/tibero-mcp-server">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@YeomYuJun/tibero-mcp-server/badge" alt="Tibero Server MCP server" />
+</a>
+
 ## 참고 사항
 기존 타 DB의 MCP를 참고하여 재구성한 MCP입니다.
 실제 사용 시 SELECT 이외에는 유의해야합니다.
