@@ -1,0 +1,21 @@
+[project]
+name = "tibero_mcp_server"
+version = "0.1.0"
+description = "A Model Context Protocol (MCP) server that enables secure interaction with Tibero databases. This server allows AI assistants to list tables, read data, and execute SQL queries through a controlled interface, making database exploration and analysis safer and more structured."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "mcp>=1.0.0",
+    "jpype1>=1.4.1",
+    "jaydebeapi>=1.2.3",
+]
+[[project.authors]]
+name = "Your Name"
+email = "your_email@example.com"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project.scripts]
+tibero_mcp_server = "tibero_mcp_server:main"

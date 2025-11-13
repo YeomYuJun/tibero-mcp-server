@@ -1,0 +1,31 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+venv/
+env/
+Lib/
+Scripts/
+
+# Development environment
+.python-version
+uv.lock
+
+# IDE settings
+.vscode/
+.idea/
+
+# Distribution directories
+*.dist-info/
+
+# Tibero JDBC drivers (don't include in repo)
+drivers/*.jar
+
+# Environment specific files
+.env
